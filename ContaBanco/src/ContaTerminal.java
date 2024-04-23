@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 //Obter pela scanner os valores digitados no terminal
 
-        //Exibir a mensagem conta criada com sucesso e os dados
+//Exibir a mensagem conta criada com sucesso e os dados
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
 
@@ -15,7 +15,7 @@ public class ContaTerminal {
         double saldo;
         String nomeCliente;
 
-        //TODO:Conhecer e importar a classe Scanner        
+              
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o numero da conta.");
         numero = sc.nextInt();
